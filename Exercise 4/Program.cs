@@ -47,16 +47,28 @@ namespace Exercise_4
         }
         public void display()
         {
-
+            Node tmp;
+            if (empty())
+                Console.WriteLine("\nStack Empty");
+            else
+            {
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+            }
         }
     }
-    
-
-    
     internal class Program
     {
         static void Main(string[] args)
         {
+            Stack s = new Stack();
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n***Stack Menu***\n");
+            }
         }
     }
 }
