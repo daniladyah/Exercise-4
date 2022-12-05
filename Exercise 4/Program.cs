@@ -19,7 +19,11 @@ namespace Exercise_4
 
     class Stack
     {
+        Node top;
+        public Stack()
+        {
 
+        }
     }
     
 
