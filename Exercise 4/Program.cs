@@ -40,6 +40,10 @@ namespace Exercise_4
             top = fresh;
             Console.WriteLine("\n" + element + "pushed");
         }
+        public void pop()
+        {
+
+        }
     }
     
 
